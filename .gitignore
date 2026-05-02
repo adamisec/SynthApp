@@ -1,0 +1,11 @@
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+.cache/
+compile_commands.json
+.claude/
+*~
+.~lock.*
