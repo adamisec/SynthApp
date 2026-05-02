@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- tło -->
+  <rect width="128" height="128" rx="18" fill="#1a1a2e"/>
+  <!-- panel -->
+  <rect x="10" y="10" width="108" height="108" rx="12" fill="#16213e"/>
+  <!-- napis G2 -->
+  <text x="64" y="54" font-family="monospace" font-size="30" font-weight="bold"
+        text-anchor="middle" fill="#e94560">G2</text>
+  <!-- sinus -->
+  <polyline points="18,82 26,68 34,96 42,60 50,96 58,68 66,88 74,72 82,92 90,64 98,88 108,76"
+            fill="none" stroke="#e94560" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- gałki -->
+  <circle cx="28"  cy="104" r="6" fill="#0f3460" stroke="#e94560" stroke-width="1.5"/>
+  <circle cx="50"  cy="104" r="6" fill="#0f3460" stroke="#e94560" stroke-width="1.5"/>
+  <circle cx="78"  cy="104" r="6" fill="#0f3460" stroke="#e94560" stroke-width="1.5"/>
+  <circle cx="100" cy="104" r="6" fill="#0f3460" stroke="#e94560" stroke-width="1.5"/>
+  <!-- wskaźniki gałek -->
+  <line x1="28"  y1="98"  x2="28"  y2="93"  stroke="#e94560" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="50"  y1="98"  x2="53"  y2="93"  stroke="#e94560" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="78"  y1="98"  x2="75"  y2="93"  stroke="#e94560" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="100" y1="98"  x2="100" y2="93"  stroke="#e94560" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
