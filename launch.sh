@@ -1,8 +1,9 @@
 #!/bin/bash
 set -e
 
-BINARY="/home/optiplex3040/synthapp/build/SynthApp_artefacts/Release/Standalone/SynthApp G2"
-BUILD_DIR="/home/optiplex3040/synthapp/build"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BUILD_DIR="$SCRIPT_DIR/build"
+BINARY="$BUILD_DIR/SynthApp_artefacts/Release/Standalone/SynthApp G2"
 
 # Zbuduj jeśli binary nie istnieje
 if [ ! -f "$BINARY" ]; then
