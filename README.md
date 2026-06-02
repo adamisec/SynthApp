@@ -1,5 +1,7 @@
 # SynthApp G2
 
+![SynthApp G2 — standalone](docs/screenshot.png)
+
 [Polski](#polski) | [English](#english)
 
 ---
